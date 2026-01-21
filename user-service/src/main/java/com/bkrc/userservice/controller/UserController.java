@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 @RestController
 //@RequestMapping("/user-service")
 @RequestMapping("/")
-@Slf4j
 public class UserController {
     private Environment env;
 
