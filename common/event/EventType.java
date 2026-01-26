@@ -1,10 +1,9 @@
-package common.event;
+package event;
 
-
-import common.event.payload.ArticleCreatedEventPayload;
-import common.event.payload.ArticleDeletedEventPayload;
-import common.event.payload.ArticleUpdatedEventPayload;
-import common.event.payload.ArticleViewedEventPayload;
+import event.payload.ArticleCreatedEventPayload;
+import event.payload.ArticleDeletedEventPayload;
+import event.payload.ArticleUpdatedEventPayload;
+import event.payload.ArticleViewedEventPayload;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

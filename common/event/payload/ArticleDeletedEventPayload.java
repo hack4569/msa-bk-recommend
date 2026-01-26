@@ -1,6 +1,6 @@
-package common.event.payload;
+package event.payload;
 
-import common.event.EventPayload;
+import event.EventPayload;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

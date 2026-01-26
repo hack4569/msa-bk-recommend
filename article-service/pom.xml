@@ -105,6 +105,13 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
+        <!-- common module -->
+        <dependency>
+            <groupId>com.bkrc</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <!-- open feign -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

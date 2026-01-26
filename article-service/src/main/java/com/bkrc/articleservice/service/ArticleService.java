@@ -5,12 +5,18 @@ import com.bkrc.articleservice.entity.BoardArticleCount;
 import com.bkrc.articleservice.repository.ArticleRepository;
 import com.bkrc.articleservice.repository.BoardArticleCountRepository;
 import com.bkrc.articleservice.service.request.ArticleCreateRequest;
+import com.bkrc.articleservice.service.request.ArticleUpdateRequest;
 import com.bkrc.articleservice.service.response.ArticlePageResponse;
 import com.bkrc.articleservice.service.response.ArticleResponse;
+import event.EventType;
+import event.payload.ArticleCreatedEventPayload;
+import event.payload.ArticleDeletedEventPayload;
+import event.payload.ArticleUpdatedEventPayload;
 import lombok.RequiredArgsConstructor;
+import messagerelay.OutboxEventPublisher;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
+import common.snowflake.Snowflake;
 import java.util.List;
 
 @Service

@@ -1,6 +1,6 @@
-package common.event;
+package event;
 
-import common.dataseralize.DataSerializer;
+import dataseralize.DataSerializer;
 import lombok.Getter;
 
 @Getter

@@ -1,4 +1,4 @@
-package common.event;
+package event;
 
 public interface EventPayload {
 }

@@ -1,6 +1,6 @@
 package com.bkrc.articleservice.service.response;
 
-import kuke.board.article.entity.Article;
+import com.bkrc.articleservice.entity.Article;
 import lombok.Getter;
 import lombok.ToString;
 

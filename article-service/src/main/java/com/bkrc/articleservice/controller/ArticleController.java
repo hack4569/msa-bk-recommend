@@ -1,10 +1,10 @@
 package com.bkrc.articleservice.controller;
 
-import kuke.board.article.service.ArticleService;
-import kuke.board.article.service.request.ArticleCreateRequest;
-import kuke.board.article.service.request.ArticleUpdateRequest;
-import kuke.board.article.service.response.ArticlePageResponse;
-import kuke.board.article.service.response.ArticleResponse;
+import com.bkrc.articleservice.service.ArticleService;
+import com.bkrc.articleservice.service.request.ArticleCreateRequest;
+import com.bkrc.articleservice.service.request.ArticleUpdateRequest;
+import com.bkrc.articleservice.service.response.ArticlePageResponse;
+import com.bkrc.articleservice.service.response.ArticleResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
